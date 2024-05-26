@@ -1,0 +1,194 @@
+body {
+    margin: 0;
+    padding: 0;
+    color: #00FF00; /* Yazı rengini yeşil yap */
+    text-align: center;
+    background-color: #000000; /* Arka planı siyah yap */
+    font: normal 12px "Trebuchet MS", "Lucida Grande", verdana, georgia, sans-serif;
+    background-image: url('images/image.jpg'); /* Arka plan resmini ekleyin */
+    background-size: cover; /* Resmin tam ekran kaplaması için */
+    background-position: center; /* Resmin ortalanması için */
+    background-repeat: no-repeat; /* Resmin tekrar etmemesi için */
+}
+
+a:link, a:visited {
+    text-decoration: none;
+    color: #00FF00; /* Link rengini yeşil yap */
+    border-bottom: 1px dotted #00FF00;
+}
+
+a:hover, a:active {
+    color: #00FF00; /* Linkin üzerine gelindiğinde de yeşil yap */
+    border-bottom-color: #00FF00;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+    margin: 5px 0 10px;
+    padding: 0;
+    line-height: 1.8em;
+    color: #00FF00; /* Başlık rengini yeşil yap */
+}
+
+h1 {
+    font-size: 28px;
+}
+
+h2 {
+    font-size: 26px;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+h4 {
+    font-size: 20px;
+}
+
+h5 {
+    font-size: 18px;
+}
+
+h6 {
+    font-size: 16px;
+}
+
+ul, ol, blockquote, pre {
+    color: #00FF00; /* Yazı rengini yeşil yap */
+    margin: 20px;
+    padding: 20px;
+    line-height: 1.8em;
+    background-color: #000000; /* Arka planı siyah yap */
+}
+
+ul {
+    list-style-type: square;
+}
+
+blockquote, pre {
+    background-color: #000000; /* Arka planı siyah yap */
+    border: 1px solid #00FF00; /* Kenarlıkları yeşil yap */
+}
+
+ins {
+    text-decoration: none;
+    font-weight: bold;
+    color: #00FF00; /* Yazı rengini yeşil yap */
+}
+
+del {
+    color: #00FF00; /* Yazı rengini yeşil yap */
+}
+
+abbr, acronym {
+    cursor: help;
+    color: #00FF00; /* Yazı rengini yeşil yap */
+}
+
+/* Structure */
+
+#container {
+    width: 420px; /* Genişliği resim genişliğine uyarlayın */
+    margin: 20px auto; /* Konteyneri ortalayın */
+    padding: 20px; /* Görsel aralık için boşluk ekleyin */
+    background-color: #000000; /* Arka planı siyah yap */
+    border: 1px solid #00FF00; /* Kenarlıkları yeşil yap */
+}
+
+#header {
+    padding: 0;
+    color: #00FF00; /* Yazı rengini yeşil yap */
+    margin: 0 0 20px;
+    text-align: center;
+    background-color: #000000; /* Arka planı siyah yap */
+    border: 1px solid #00FF00; /* Kenarlıkları yeşil yap */
+}
+
+#header h1 {
+    margin: 0;
+    padding: 30px 0 15px;
+    line-height: 1.0em;
+}
+
+#header h2 {
+    margin: 0;
+    padding: 0 0 30px;
+    text-transform: uppercase;
+    font-size: 13px;
+    line-height: 1.0em;
+}
+
+#content {
+    width: 100%; /* Tam genişlik alacak şekilde ayarlayın */
+    color: #00FF00; /* Yazı rengini yeşil yap */
+    background-color: #000000; /* Arka planı siyah yap */
+}
+
+#content dl {
+    padding: 0;
+    margin: 20px;
+}
+
+#content dt {
+    font-size: 24px;
+    color: #00FF00; /* Yazı rengini yeşil yap */
+    line-height: 1.6em;
+}
+
+#content dd {
+    padding: 0;
+    margin: 10px 0;
+    color: #00FF00; /* Yazı rengini yeşil yap */
+}
+
+#content dd.summary {
+    color: #00FF00; /* Yazı rengini yeşil yap */
+    font-size: 10px;
+    margin-bottom: 20px;
+    padding-bottom: 11px;
+    border-bottom: 1px solid #00FF00; /* Kenarlıkları yeşil yap */
+}
+
+#content dd p.img {
+    text-align: center; /* Resmi ortalayın */
+    margin: 0; /* Varsayılan kenar boşluklarını kaldırın */
+}
+
+#content dd p.img img {
+    padding: 8px;
+    border: 1px solid #00FF00; /* Kenarlıkları yeşil yap */
+    background-color: #000000; /* Arka planı siyah yap */
+}
+
+/* Resmin altındaki metni ortalamak için stil ekledik */
+#content dd blockquote {
+    text-align: center;
+    margin-top: 20px;
+    color: #00FF00; /* Yazı rengini yeşil yap */
+}
+
+#footer {
+    clear: both;
+    color: #00FF00; /* Yazı rengini yeşil yap */
+    padding: 10px 0;
+    text-align: center;
+    margin: 20px 0 40px;
+    background-color: #000000; /* Arka planı siyah yap */
+    border: 1px solid #00FF00; /* Kenarlıkları yeşil yap */
+}
+
+#footer p {
+    margin: 0;
+    padding: 0 10px 10px;
+}
+
+#footer a:link, #footer a:visited {
+    color: #00FF00; /* Link rengini yeşil yap */
+    border-bottom-color: #00FF00;
+}
+
+#footer a:hover, #footer a:active {
+    color: #00FF00; /* Linkin üzerine gelindiğinde de yeşil yap */
+    border-bottom-color: #00FF00;
+}
