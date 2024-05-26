@@ -5,7 +5,7 @@ body {
     text-align: center;
     background-color: #000000; /* Arka planı siyah yap */
     font: normal 12px "Trebuchet MS", "Lucida Grande", verdana, georgia, sans-serif;
-    background-image: url('images/image.jpg'); /* Arka plan resmini ekleyin */
+    background-image: url('path/to/your/image.jpg'); /* Arka plan resmini ekleyin */
     background-size: cover; /* Resmin tam ekran kaplaması için */
     background-position: center; /* Resmin ortalanması için */
     background-repeat: no-repeat; /* Resmin tekrar etmemesi için */
@@ -89,11 +89,10 @@ abbr, acronym {
 /* Structure */
 
 #container {
-    width: 90%; /* Mobil cihazlar için genişliği %90 yap */
-    max-width: 420px; /* Masaüstü görünüm için maksimum genişlik */
+    width: 420px; /* Genişliği resim genişliğine uyarlayın */
     margin: 20px auto; /* Konteyneri ortalayın */
     padding: 20px; /* Görsel aralık için boşluk ekleyin */
-    background-color: rgba(0, 0, 0, 0.8); /* Arka planı siyah yap, biraz şeffaf */
+    background-color: #000000; /* Arka planı siyah yap */
     border: 1px solid #00FF00; /* Kenarlıkları yeşil yap */
 }
 
@@ -118,16 +117,6 @@ abbr, acronym {
     text-transform: uppercase;
     font-size: 13px;
     line-height: 1.0em;
-}
-
-#wrapper {
-    width: 100%; /* Tam genişlik alacak şekilde ayarlayın */
-    color: #00FF00; /* Yazı rengini yeşil yap */
-    background-color: #000000; /* Arka planı siyah yap */
-}
-
-#content-wrapper {
-    width: 100%; /* Tam genişlik alacak şekilde ayarlayın */
 }
 
 #content {
@@ -202,36 +191,4 @@ abbr, acronym {
 #footer a:hover, #footer a:active {
     color: #00FF00; /* Linkin üzerine gelindiğinde de yeşil yap */
     border-bottom-color: #00FF00;
-}
-
-/* Mobil cihazlar için medya sorguları */
-@media (max-width: 600px) {
-    #container {
-        width: 95%; /* Mobil cihazlarda tam genişlik */
-        margin: 0 auto; /* Ortalanmış */
-        padding: 10px; /* Mobil cihazlarda daha az padding */
-    }
-
-    #header h1 {
-        font-size: 24px; /* Başlık font boyutunu küçült */
-        padding: 20px 0 10px;
-    }
-
-    #header h2 {
-        font-size: 12px; /* Başlık font boyutunu küçült */
-        padding: 0 0 20px;
-    }
-
-    #content dl {
-        margin: 10px;
-    }
-
-    #content dt {
-        font-size: 20px; /* İçerik başlık font boyutunu küçült */
-    }
-
-    #content dd p.img img {
-        width: 100%; /* Resmi ekran genişliğine uyumlu hale getirin */
-        height: auto; /* Yüksekliği otomatik ayarlayın */
-    }
 }
