@@ -120,6 +120,16 @@ abbr, acronym {
     line-height: 1.0em;
 }
 
+#wrapper {
+    width: 100%; /* Tam genişlik alacak şekilde ayarlayın */
+    color: #00FF00; /* Yazı rengini yeşil yap */
+    background-color: #000000; /* Arka planı siyah yap */
+}
+
+#content-wrapper {
+    width: 100%; /* Tam genişlik alacak şekilde ayarlayın */
+}
+
 #content {
     width: 100%; /* Tam genişlik alacak şekilde ayarlayın */
     color: #00FF00; /* Yazı rengini yeşil yap */
@@ -197,8 +207,8 @@ abbr, acronym {
 /* Mobil cihazlar için medya sorguları */
 @media (max-width: 600px) {
     #container {
-        width: 100%; /* Mobil cihazlarda tam genişlik */
-        margin: 0; /* Kenar boşluklarını kaldırın */
+        width: 95%; /* Mobil cihazlarda tam genişlik */
+        margin: 0 auto; /* Ortalanmış */
         padding: 10px; /* Mobil cihazlarda daha az padding */
     }
 
@@ -212,7 +222,16 @@ abbr, acronym {
         padding: 0 0 20px;
     }
 
+    #content dl {
+        margin: 10px;
+    }
+
     #content dt {
         font-size: 20px; /* İçerik başlık font boyutunu küçült */
+    }
+
+    #content dd p.img img {
+        width: 100%; /* Resmi ekran genişliğine uyumlu hale getirin */
+        height: auto; /* Yüksekliği otomatik ayarlayın */
     }
 }
