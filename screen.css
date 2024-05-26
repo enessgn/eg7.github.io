@@ -4,8 +4,8 @@ body {
     color: #00FF00; /* Yazı rengini yeşil yap */
     text-align: center;
     background-color: #000000; /* Arka planı siyah yap */
-    font: normal 30px "Trebuchet MS", "Lucida Grande", verdana, georgia, sans-serif;
-    background-image: url('path/to/your/image.jpg'); /* Arka plan resmini ekleyin */
+    font: normal 12px "Trebuchet MS", "Lucida Grande", verdana, georgia, sans-serif;
+    background-image: url('images/image.jpg'); /* Arka plan resmini ekleyin */
     background-size: cover; /* Resmin tam ekran kaplaması için */
     background-position: center; /* Resmin ortalanması için */
     background-repeat: no-repeat; /* Resmin tekrar etmemesi için */
@@ -31,27 +31,27 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-    font-size: 30px;
+    font-size: 28px;
 }
 
 h2 {
-    font-size: 30px;
+    font-size: 26px;
 }
 
 h3 {
-    font-size: 30px;
+    font-size: 24px;
 }
 
 h4 {
-    font-size: 30px;
+    font-size: 20px;
 }
 
 h5 {
-    font-size: 30px;
+    font-size: 18px;
 }
 
 h6 {
-    font-size: 30px;
+    font-size: 16px;
 }
 
 ul, ol, blockquote, pre {
@@ -69,7 +69,6 @@ ul {
 blockquote, pre {
     background-color: #000000; /* Arka planı siyah yap */
     border: 1px solid #00FF00; /* Kenarlıkları yeşil yap */
-    font-size: 30px; /* Yazı boyutunu 18px olarak ayarla */
 }
 
 ins {
@@ -116,7 +115,7 @@ abbr, acronym {
     margin: 0;
     padding: 0 0 30px;
     text-transform: uppercase;
-    font-size: 30px;
+    font-size: 13px;
     line-height: 1.0em;
 }
 
@@ -132,7 +131,7 @@ abbr, acronym {
 }
 
 #content dt {
-    font-size: 30px;
+    font-size: 24px;
     color: #00FF00; /* Yazı rengini yeşil yap */
     line-height: 1.6em;
 }
@@ -145,7 +144,7 @@ abbr, acronym {
 
 #content dd.summary {
     color: #00FF00; /* Yazı rengini yeşil yap */
-    font-size: 30px;
+    font-size: 10px;
     margin-bottom: 20px;
     padding-bottom: 11px;
     border-bottom: 1px solid #00FF00; /* Kenarlıkları yeşil yap */
@@ -167,7 +166,6 @@ abbr, acronym {
     text-align: center;
     margin-top: 20px;
     color: #00FF00; /* Yazı rengini yeşil yap */
-    font-size: 30px; /* Yazı boyutunu 18px olarak ayarla */
 }
 
 #footer {
@@ -192,4 +190,5 @@ abbr, acronym {
 
 #footer a:hover, #footer a:active {
     color: #00FF00; /* Linkin üzerine gelindiğinde de yeşil yap */
-    border-bottom-color: #00FF
+    border-bottom-color: #00FF00;
+}
