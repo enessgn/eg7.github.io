@@ -69,7 +69,7 @@ ul {
 blockquote, pre {
     background-color: #000000; /* Arka planı siyah yap */
     border: 1px solid #00FF00; /* Kenarlıkları yeşil yap */
-    font-size: 18px; /* Yazı boyutunu 18px olarak ayarla */
+    font-size: 30px; /* Yazı boyutunu 18px olarak ayarla */
 }
 
 ins {
@@ -167,7 +167,7 @@ abbr, acronym {
     text-align: center;
     margin-top: 20px;
     color: #00FF00; /* Yazı rengini yeşil yap */
-    font-size: 18px; /* Yazı boyutunu 18px olarak ayarla */
+    font-size: 30px; /* Yazı boyutunu 18px olarak ayarla */
 }
 
 #footer {
