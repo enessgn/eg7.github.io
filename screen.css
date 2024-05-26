@@ -5,7 +5,7 @@ body {
     text-align: center;
     background-color: #000000; /* Arka planı siyah yap */
     font: normal 12px "Trebuchet MS", "Lucida Grande", verdana, georgia, sans-serif;
-    background-image: url('path/to/your/image.jpg'); /* Arka plan resmini ekleyin */
+    background-image: url('images/image.jpg'); /* Arka plan resmini ekleyin */
     background-size: cover; /* Resmin tam ekran kaplaması için */
     background-position: center; /* Resmin ortalanması için */
     background-repeat: no-repeat; /* Resmin tekrar etmemesi için */
