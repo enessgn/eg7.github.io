@@ -5,7 +5,7 @@ body {
     text-align: center;
     background-color: #000000; /* Arka planı siyah yap */
     font: normal 12px "Trebuchet MS", "Lucida Grande", verdana, georgia, sans-serif;
-    background-image: url('images/image.jpg'); /* Arka plan resmini ekleyin */
+    background-image: url('path/to/your/image.jpg'); /* Arka plan resmini ekleyin */
     background-size: cover; /* Resmin tam ekran kaplaması için */
     background-position: center; /* Resmin ortalanması için */
     background-repeat: no-repeat; /* Resmin tekrar etmemesi için */
@@ -89,7 +89,8 @@ abbr, acronym {
 /* Structure */
 
 #container {
-    width: 420px; /* Genişliği resim genişliğine uyarlayın */
+    width: 90%; /* Mobil cihazlar için genişliği %90 yap */
+    max-width: 420px; /* Masaüstü görünüm için maksimum genişlik */
     margin: 20px auto; /* Konteyneri ortalayın */
     padding: 20px; /* Görsel aralık için boşluk ekleyin */
     background-color: #000000; /* Arka planı siyah yap */
@@ -191,4 +192,27 @@ abbr, acronym {
 #footer a:hover, #footer a:active {
     color: #00FF00; /* Linkin üzerine gelindiğinde de yeşil yap */
     border-bottom-color: #00FF00;
+}
+
+/* Mobil cihazlar için medya sorguları */
+@media (max-width: 600px) {
+    #container {
+        width: 100%; /* Mobil cihazlarda tam genişlik */
+        margin: 0; /* Kenar boşluklarını kaldırın */
+        padding: 10px; /* Mobil cihazlarda daha az padding */
+    }
+
+    #header h1 {
+        font-size: 24px; /* Başlık font boyutunu küçült */
+        padding: 20px 0 10px;
+    }
+
+    #header h2 {
+        font-size: 12px; /* Başlık font boyutunu küçült */
+        padding: 0 0 20px;
+    }
+
+    #content dt {
+        font-size: 20px; /* İçerik başlık font boyutunu küçült */
+    }
 }
