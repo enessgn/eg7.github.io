@@ -93,7 +93,7 @@ abbr, acronym {
     max-width: 420px; /* Masaüstü görünüm için maksimum genişlik */
     margin: 20px auto; /* Konteyneri ortalayın */
     padding: 20px; /* Görsel aralık için boşluk ekleyin */
-    background-color: #000000; /* Arka planı siyah yap */
+    background-color: rgba(0, 0, 0, 0.8); /* Arka planı siyah yap, biraz şeffaf */
     border: 1px solid #00FF00; /* Kenarlıkları yeşil yap */
 }
 
